@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+/* Define font variables */
+:root {
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-jakarta);
+}
+
+.font-jakarta {
+  font-family: var(--font-jakarta);
+}
+
+.font-roboto {
+  font-family: var(--font-roboto);
+}
+
+
+
+/* hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
