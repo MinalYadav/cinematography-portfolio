@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faFacebookF,
-  faVimeoV,
+  faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -95,13 +95,13 @@ function Navbar() {
           <FontAwesomeIcon icon={faFacebookF} />
         </a>
 
-        {/* <a
+        <a
           href="#"
           className="hover:text-white/70 transition"
-          aria-label="Vimeo"
+          aria-label="Youtube"
         >
-          <FontAwesomeIcon icon={faVimeoV} />
-        </a> */}
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>
       </motion.div>
     </motion.div>
   );
