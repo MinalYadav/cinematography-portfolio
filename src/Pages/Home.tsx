@@ -327,14 +327,14 @@ function Home() {
 
   // Images
   const originalImages = [
-    "./src/assets/images/IMG_7038.PNG",
-    "./src/assets/images/IMG_0685.JPG.jpeg",
-    "./src/assets/images/IMG_5607.JPG.jpeg",
-    "./src/assets/images/IMG_7046.PNG",
-    "./src/assets/images/IMG_7045.PNG",
-    "./src/assets/images/IMG_7044.PNG",
-    "./src/assets/images/IMG_7034.PNG",
-    "./src/assets/images/IMG_7035.PNG",
+    "/images/IMG_7038.PNG",
+    "/images/IMG_0685.JPG.jpeg",
+    "/images/IMG_5607.JPG.jpeg",
+    "/images/IMG_7046.PNG",
+    "/images/IMG_7045.PNG",
+    "/images/IMG_7044.PNG",
+    "/images/IMG_7034.PNG",
+    "/images/IMG_7035.PNG",
   ];
 
   // Duplicate for infinite loop

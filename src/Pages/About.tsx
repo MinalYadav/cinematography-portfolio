@@ -94,7 +94,7 @@ const About = () => {
           {/* Image */}
           <motion.img
             variants={item}
-            src="./src/assets/images/IMG_5602.JPG.jpeg"
+            src="./images/IMG_5602.JPG.jpeg"
             className="w-full h-[400px] object-cover rounded-2xl"
           />
 

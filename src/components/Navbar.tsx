@@ -80,7 +80,7 @@ function Navbar() {
         className="flex gap-5 text-lg"
       >
         <a
-          href="#"
+          href="https://www.instagram.com/cinemo_films_?igsh=cWQ4dzh5ZmdrcGVm"
           className="hover:text-white/70 transition"
           aria-label="Instagram"
         >
@@ -95,13 +95,13 @@ function Navbar() {
           <FontAwesomeIcon icon={faFacebookF} />
         </a>
 
-        <a
+        {/* <a
           href="#"
           className="hover:text-white/70 transition"
           aria-label="Vimeo"
         >
           <FontAwesomeIcon icon={faVimeoV} />
-        </a>
+        </a> */}
       </motion.div>
     </motion.div>
   );
