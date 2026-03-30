@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import { motion, type Variants } from "framer-motion";
 import Footer from "../components/Footer";
